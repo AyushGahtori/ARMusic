@@ -53,7 +53,7 @@ class SocialDialogFragment : DialogFragment() {
 
     private fun prepareData() {
         var item = Profile(
-            "Harnoor", Arrays.asList(
+            "Ayush", Arrays.asList(
                 NoteBlock(0, 4, 0, 0) as Block,
                 NoteBlock(0, 1, 1, 0) as Block,
                 NoteBlock(3, 0) as Block,
@@ -70,7 +70,7 @@ class SocialDialogFragment : DialogFragment() {
         )
         profileList.add(item)
         item = Profile(
-            "Jason", Arrays.asList(
+            "Ayush", Arrays.asList(
                 NoteBlock(0, 4, 0, 0) as Block,
                 NoteBlock(0, 1, 1, 0) as Block,
                 NoteBlock(3, 0) as Block,
@@ -87,7 +87,7 @@ class SocialDialogFragment : DialogFragment() {
         )
         profileList.add(item)
         item = Profile(
-            "Carl", Arrays.asList(
+            "Ayush", Arrays.asList(
                 NoteBlock(0, 4, 0, 0) as Block,
                 NoteBlock(0, 1, 1, 0) as Block,
                 NoteBlock(3, 0) as Block,
@@ -104,7 +104,9 @@ class SocialDialogFragment : DialogFragment() {
         )
         profileList.add(item)
         item = Profile(
-            "Naman", Arrays.asList(
+            "Ayush", Arrays.asList(
+                
+                
                 NoteBlock(0, 4, 0, 0) as Block,
                 NoteBlock(0, 1, 1, 0) as Block,
                 NoteBlock(3, 0) as Block,
