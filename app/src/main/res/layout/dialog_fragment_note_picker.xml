@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llFields"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <RelativeLayout
+            android:id="@+id/rlKey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvKeyHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Key"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvKeyValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvKeyHeader"
+                android:layout_alignTop="@+id/ivKeyPlus"
+                android:layout_alignBottom="@+id/ivKeyMinus"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivKeyPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvKeyHeader"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/up"
+                android:text="&#9650;"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivKeyMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivKeyPlus"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/down"
+                android:text="&#9660;"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNote"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvNoteHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvNoteValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNoteHeader"
+                android:layout_alignTop="@+id/ivNotePlus"
+                android:layout_alignBottom="@+id/ivNoteMinus"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivNotePlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNoteHeader"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/up"
+                android:text="&#9650;"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivNoteMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivNotePlus"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/down"
+                android:text="&#9660;"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlOctave"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvOctaveHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Oct"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvOctaveValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvOctaveHeader"
+                android:layout_alignTop="@+id/ivOctavePlus"
+                android:layout_alignBottom="@+id/ivOctaveMinus"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivOctavePlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvOctaveHeader"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/up"
+                android:text="&#9650;"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivOctaveMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivOctavePlus"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/down"
+                android:text="&#9660;"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlLength"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvLengthHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Count"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvLengthValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvLengthHeader"
+                android:layout_alignTop="@+id/ivLengthPlus"
+                android:layout_alignBottom="@+id/ivLengthMinus"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivLengthPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvLengthHeader"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/up"
+                android:text="&#9650;"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivLengthMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivLengthPlus"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/down"
+                android:text="&#9660;"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llFields"
+        android:layout_centerHorizontal="true"
+        android:text="Add"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

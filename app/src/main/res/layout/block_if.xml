@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBlockIf"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_gravity="center_vertical"
+    android:layout_marginStart="3dp"
+    android:background="#8d8d8d"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="6sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="if"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnExpression"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="8sp" />
+
+</LinearLayout>

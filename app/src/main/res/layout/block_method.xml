@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBlockMethod"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_marginStart="3dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tvBlockMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

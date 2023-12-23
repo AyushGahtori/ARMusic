@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MusicFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello Music Fragment" />
+
+    <Button
+        android:id="@+id/playAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="play audio" />
+
+    <Button
+        android:id="@+id/btnNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playAudio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Notes" />
+
+    <Button
+        android:id="@+id/btnForBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNotes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="play audio" />
+
+    <Button
+        android:id="@+id/btnIfBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnForBlock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="play audio" />
+
+</RelativeLayout>

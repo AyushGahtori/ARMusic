@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    tools:ignore="SmallSp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBlocks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@+id/btnAddNote"
+        android:scrollbars="horizontal" />
+
+    <Button
+        android:id="@+id/btnAddNote"
+        android:layout_width="18dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/rvBlocks"
+        android:layout_marginTop="1dp"
+        android:layout_toStartOf="@+id/btnAddIf"
+        android:background="@android:color/holo_green_light"
+        android:text="Note"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="6sp" />
+
+    <Button
+        android:id="@+id/btnAddFor"
+        android:layout_width="18dp"
+        android:layout_height="10dp"
+        android:layout_alignEnd="@+id/btnAddNote"
+        android:layout_alignBottom="@+id/rvBlocks"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="for"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="6sp" />
+
+    <Button
+        android:id="@+id/btnAddIf"
+        android:layout_width="18dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/rvBlocks"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="if"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="6sp" />
+
+    <Button
+        android:id="@+id/btnAddMethod"
+        android:layout_width="18dp"
+        android:layout_height="10dp"
+        android:layout_alignBottom="@+id/rvBlocks"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="method"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="4sp" />
+
+</RelativeLayout>
