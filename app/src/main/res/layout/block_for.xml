@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlBlockFor"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_gravity="center_vertical"
+    android:layout_marginStart="3dp"
+    android:background="#8d8d8d"
+    android:orientation="horizontal"
+    tools:ignore="SmallSp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="for x in 0.." />
+
+    <Button
+        android:id="@+id/btnLoops"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_margin="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="8sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="(" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvForBlocks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp" />
+
+    <Button
+        android:id="@+id/btnForBlockAdd"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_margin="2dp"
+        android:layout_marginStart="6dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Note"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text=")" />
+</LinearLayout>
